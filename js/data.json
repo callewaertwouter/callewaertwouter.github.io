@@ -1,4 +1,4 @@
-var airsoftguns = `{
+var airsoftguns = {
     "pistols": [
         {
             "name": "Armorer",
@@ -98,4 +98,4 @@ var airsoftguns = `{
         }
     ]
     
-}`;
+};
