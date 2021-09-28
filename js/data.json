@@ -1,4 +1,4 @@
-var airsoftguns = `{
+var airsoftguns = {
     "pistols": [
         {
             "name": "Armorer",
@@ -97,4 +97,4 @@ var airsoftguns = `{
             "description": "A sniper rifle to quickly dispatch the people you hate the most. Like your neighbour or your mother-in-law. Or a certain teacher."
         }
     ]   
-}`;
+};
