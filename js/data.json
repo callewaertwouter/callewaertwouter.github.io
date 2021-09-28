@@ -84,7 +84,7 @@ var airsoftguns = `{
         {
             "name": "Minigun",
             "image": "otherminigun.jpg",
-            "description: "A minigun whenever you feel like going on a rampage."
+            "description": "A minigun whenever you feel like going on a rampage."
         },
         {
             "name": "Grenade Launcher",
