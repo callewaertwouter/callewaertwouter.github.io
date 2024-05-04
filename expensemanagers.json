@@ -1,0 +1,139 @@
+                    {
+                        Id = 1,
+                        Title = "Uitgavenbeheer januari 2024",
+                        Description = "Mijn uitgaven voor de maand januari",
+                        StartingBalance = 1500.00M,
+                        Expenses = new List<Expense>
+                        {
+                            new Expense
+                            {
+                                Id = 1,
+                                Amount = 50.00M,
+                                CategoryName = "Belasting",
+                                Date = new DateTime(2024,1,1)
+                            },
+
+                            new Expense
+                            {
+                                Id = 2,
+                                Amount = 15.99M,
+                                CategoryName = "Boodschappen",
+                                Date = new DateTime(2024, 1, 2)
+                            },
+
+                            new Expense
+                            {
+                                Id = 3,
+                                Amount = 1000.00M,
+                                CategoryName = "Loon",
+                                Date = new DateTime(2024, 1, 3),
+                                IsIncome = true
+                            },
+
+                            new Expense
+                            {
+                                Id = 4,
+                                Amount = 57.00M,
+                                CategoryName = "Verkeersboete",
+                                Date = new DateTime(2024, 1, 4)
+                            },
+
+                            new Expense
+                            {
+                                Id = 5,
+                                Amount = 123.50M,
+                                CategoryName = "Overig",
+                                Date = new DateTime(2024, 1, 5)
+                            }
+                        }
+                    },
+                    {
+                        Id = 2,
+                        Title = "Kasbonnen",
+                        Description = "Al mijn kasbonnekes",
+                        StartingBalance = 1000,
+                        Expenses = new List<Expense>
+                        {
+                            new Expense
+                            {
+                                Id = 1,
+                                Amount = 10.00M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024,2,1)
+                            },
+
+                            new Expense
+                            {
+                                Id = 2,
+                                Amount = 5.99M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 2)
+                            },
+
+                            new Expense
+                            {
+                                Id = 3,
+                                Amount = 10.00M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 3),
+                            },
+
+                            new Expense
+                            {
+                                Id = 4,
+                                Amount = 12.00M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 4)
+                            },
+
+                            new Expense
+                            {
+                                Id = 5,
+                                Amount = 13.50M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 5)
+                            },
+
+                            new Expense
+                            {
+                                Id = 6,
+                                Amount = 40.00M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024,2,6)
+                            },
+
+                            new Expense
+                            {
+                                Id = 7,
+                                Amount = 50.99M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 6)
+                            },
+
+                            new Expense
+                            {
+                                Id = 8,
+                                Amount = 100.00M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 7),
+                            },
+
+                            new Expense
+                            {
+                                Id = 9,
+                                Amount = 22.00M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 8)
+                            },
+
+                            new Expense
+                            {
+                                Id = 10,
+                                Amount = 8.50M,
+                                CategoryName = "Kasbon",
+                                Date = new DateTime(2024, 2, 8),
+                                HasPicture = true,
+                                ImagePath = ""
+                            },
+                        }
+                    }
